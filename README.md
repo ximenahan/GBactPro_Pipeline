@@ -1,7 +1,5 @@
 # GBactPro_Pipeline
 
-Repository for the GBactPro pipeline: a genome-wide bacterial promoter prediction framework.
-
 This repository contains the official implementation and documentation for GBactPro. The project aims to make promoter prediction transparent, reproducible, and accessible to researchers.
 
 What you'll find here
