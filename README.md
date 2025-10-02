@@ -1,24 +1,40 @@
 # GBactPro_Pipeline
 
-This folder contains the GBactPro_Pipeline project scaffold. The remote repository is: https://github.com/ximenahan/GBactPro_Pipeline
+Repository for the GBactPro pipeline: a genome-wide bacterial promoter prediction framework.
 
-This repo in the remote is currently empty; this local folder is initialized and linked to that remote (no push performed).
+This repository contains the official implementation and documentation for GBactPro. The project aims to make promoter prediction transparent, reproducible, and accessible to researchers.
 
-Contents:
-- README.md (this file)
-- .gitignore
+What you'll find here
 
-How to push your first commit:
+- Example input data: small-scale sequences and minimal metadata to quickly test the pipeline and validate the end-to-end workflow.
+- Reproducibility resources: processed datasets, example scripts, and small helper utilities to partially reproduce results reported in the GBactPro publication.
+- Documentation: step-by-step Markdown guides covering installation, usage, workflow diagrams, and notes on interpreting outputs.
 
-1. Configure Git user if not already configured:
-   git config --global user.name "Your Name"
-   git config --global user.email "you@example.com"
+Goals
 
-2. Add files, commit and push:
-   git add .
-   git commit -m "Initial commit: scaffold"
-   git push -u origin main  # or 'master' depending on default branch
+- Provide a clear, runnable implementation of GBactPro.
+- Share data and code needed to reproduce key analyses.
+- Offer accessible documentation so users can adapt the pipeline to new bacterial genomes.
 
-If you prefer to use SSH, set the remote to the SSH URL instead:
-   git remote set-url origin git@github.com:ximenahan/GBactPro_Pipeline.git
+How to get started
+
+1. Clone the repository (or use the folder created locally):
+
+   git clone https://github.com/ximenahan/GBactPro_Pipeline.git
+
+2. Inspect the `docs/` and `examples/` folders for usage notes and sample data.
+
+3. Follow the step-by-step guides in the `docs/` directory to run preprocessing, training (if provided), and genome scanning.
+
+Contributing
+
+Contributions are welcome. Please open issues or pull requests on GitHub. If you plan to reproduce figures from the manuscript, include a short notebook or script showing the steps.
+
+Contact
+
+For questions about the project or reproducibility materials, open an issue on the GitHub repository.
+
+License
+
+Include license information here (e.g., MIT, BSD) when you decide on the project license.
 
